@@ -11,6 +11,16 @@ npm run build
 
 ## Quick Start
 
+### Simplest way: properties file + `npm start`
+
+```bash
+cp config.properties.example config.properties
+# fill in EMAIL, PASSWORD and URL in config.properties
+npm start
+```
+
+`YEAR` and `MONTH` are optional: if you leave them empty (or remove them), the current year and month are used.
+
 ### Complete Workflow: Login + Fill Attendance Calendar
 
 ```bash
