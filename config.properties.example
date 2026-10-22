@@ -1,0 +1,9 @@
+# Copy this file to config.properties and fill your local values.
+# CLI args and environment variables take precedence over this file.
+EMAIL=
+PASSWORD=
+URL=
+YEAR=2026
+MONTH=7
+HEADLESS=false
+KEEP_OPEN=false

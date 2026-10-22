@@ -1,0 +1,31 @@
+{
+  "name": "factorial-clock-in",
+  "version": "1.0.0",
+  "description": "Automated web navigation and form filling using Puppeteer",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node dist/index.js",
+    "start": "npm run build && node dist/index.js",
+    "example:login": "node --loader ts-node/esm src/examples.ts login",
+    "example:custom": "node --loader ts-node/esm src/examples.ts custom"
+  },
+  "keywords": [
+    "puppeteer",
+    "automation",
+    "web-scraping",
+    "form-filling"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "26.1.2",
+    "@types/puppeteer": "7.0.4",
+    "ts-node": "10.9.2",
+    "typescript": "7.0.2"
+  },
+  "dependencies": {
+    "puppeteer": "25.4.0"
+  }
+}

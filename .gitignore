@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+screenshot*.png
+.env
+.env.local
+config.properties
+*.js.map
+*.d.ts.map
+test-repo/
